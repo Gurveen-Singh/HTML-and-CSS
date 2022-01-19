@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 100px;
+} */
+
+/* h2 {
+  color: rgb(0, 3, 172);
+}
+
+.first-title {
+  color: rgb(201, 0, 0) ;
+}
+
+#link {
+  color: rgb(0, 2, 1);
+} */
+
+.random h1 {
+  color: rgb(0, 3, 172);
+}
+
+#gallery h1 {
+  color: rgb(172, 0, 0);
+}
+
+/* .list + ul {
+} */
+
+a[href="#"] {
+  color: rgb(226, 43, 43);
+}
+
+.list li:nth-last-child(even) {
+  color: rgb(255, 127, 127);
+}
+
+button {
+  margin: 40px;
+  padding: 10px;
+}
+
+.text-section {
+  font-size: 1em;
+}
