@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* body {
+  background: rgb(167, 165, 165);
+}
+
+h1 {
+  font-size: 4.8rem;
+} */
+
+/* h1:hover {
+  font-size: calc(3rem + 10vh);
+} */
+
+/* @media (max-width: 1024px) {
+  body {
+    background: red;
+  }
+  .tablet {
+    font-size: 3.2rem;
+  }
+} */
+
+@media (max-width: 500px) {
+  body {
+    background: rgb(42, 90, 23);
+  }
+  .mobile {
+    font-size: 2.2rem;
+  }
+}
