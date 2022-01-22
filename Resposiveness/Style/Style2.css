@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  border: 0.4rem solid rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+  align-content: flex-start;
+}
+
+.box {
+  width: 30rem;
+  height: 30rem;
+}
+
+.box1 {
+  background-color: #fd9f9f;
+}
+
+.box2 {
+  background-color: #71aee0;
+}
+
+.box3 {
+  background-color: #76f09e;
+}
+
+.box4 {
+  background-color: #d474b7;
+}
+
+.box5 {
+  background-color: #75eee4;
+}
+
+.box6 {
+  background-color: #e2d589;
+}
