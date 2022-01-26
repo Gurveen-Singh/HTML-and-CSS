@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  border: 1rem solid rgb(146, 146, 146);
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: 0.2rem;
+  grid-row-gap: 0.2rem;
+  /* justify-items: center; */
+}
+
+.box {
+  padding: 5rem;
+}
+
+.box1 {
+  background-color: aqua;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: green;
+  grid-column: 3/3;
+}
+
+.box4 {
+  background-color: orange;
+}
+
+.box5 {
+  background-color: red;
+}
