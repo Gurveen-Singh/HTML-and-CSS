@@ -1,0 +1,22 @@
+.intro {
+  min-height: 100vh;
+  align-items: center;
+
+  @include flex(column, center);
+
+  h2 {
+    font-size: $font-size;
+    color: $header-color;
+  }
+
+  button {
+    border: none;
+    background: $primary-color;
+    padding: 1rem 3 rem;
+    transition: all 1s ease-in-out;
+    &:hover {
+      background: #58b460;
+      color: #ceb432;
+    }
+  }
+}

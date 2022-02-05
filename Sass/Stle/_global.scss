@@ -1,0 +1,15 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+$primary-color: #ceb432;
+$header-color: #585bb4;
+$font-size: 3rem;
+
+@mixin flex($direc, $just) {
+  display: flex;
+  flex-direction: $direc;
+  justify-content: $just;
+}
